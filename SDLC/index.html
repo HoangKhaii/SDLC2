@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodX Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container header-flex">
+      <img src="logo-grabfood2.svg" alt="Logo" class="logo">
+      <div class="delivery-address">
+        <span>Deliver to:</span>
+        <input type="text" placeholder="Enter your address..." />
+        <button class="address-btn">Update</button>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="login.html">Log in</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Shopping Cart <span class="cart-count">0</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Find food....">
+      <button>Search</button>
+    </div>
+  </header>
+  <main>
+    <section class="slider-banner">
+      <div class="slider">
+        <img src="https://inan2h.vn/wp-content/uploads/2022/12/in-banner-quang-cao-do-an-6-1.jpg" alt="Banner 1">
+        <img
+          src="https://img.freepik.com/premium-psd/food-menu-restaurant-facebook-cover-banner-template_120329-4873.jpg?semt=ais_hybrid"
+          alt="Banner 2">
+        <img
+          src="https://img.freepik.com/premium-psd/banner-food-menu-restaurant-template-food-menu-restaurant-roast-chicken_609989-567.jpg"
+          alt="Banner 3">
+        <img src="https://th.bing.com/th/id/OIP.ajLuY2Ym0hz3TiNUTEf__gHaEK?rs=1&pid=ImgDetMain" alt="Banner 4">
+        <img src="https://th.bing.com/th/id/R.dace44bce79db7e4cf7f52a3e7641a91?rik=DtjV69DPyKdYHg&pid=ImgRaw&r=0"
+          alt="Banner 5">
+        <!-- Lặp lại -->
+        <img src="https://inan2h.vn/wp-content/uploads/2022/12/in-banner-quang-cao-do-an-6-1.jpg" alt="Banner 1">
+        <img
+          src="https://img.freepik.com/premium-psd/food-menu-restaurant-facebook-cover-banner-template_120329-4873.jpg?semt=ais_hybrid"
+          alt="Banner 2">
+        <img
+          src="https://img.freepik.com/premium-psd/banner-food-menu-restaurant-template-food-menu-restaurant-roast-chicken_609989-567.jpg"
+          alt="Banner 3">
+        <img src="https://th.bing.com/th/id/OIP.ajLuY2Ym0hz3TiNUTEf__gHaEK?rs=1&pid=ImgDetMain" alt="Banner 4">
+        <img src="https://th.bing.com/th/id/R.dace44bce79db7e4cf7f52a3e7641a91?rik=DtjV69DPyKdYHg&pid=ImgRaw&r=0"
+          alt="Banner 5">
+      </div>
+      </div>
+    </section>
+    <section class="categories">
+      <button class="cat-btn active">All</button>
+      <button class="cat-btn">Main course</button>
+      <button class="cat-btn">Beverage</button>
+      <button class="cat-btn">Dessert</button>
+      <button class="cat-btn">Combo</button>
+    </section>
+    <section class="featured">
+      <h2>Featured Categories</h2>
+      <div class="featured-list">
+        <div class="featured-item">
+          <img src="https://static.vinwonders.com/2022/10/banh-mi-phu-quoc-1.jpg" alt="Bánh mì">
+          <span>Bread</span>
+        </div>
+        <div class="featured-item">
+          <img src="https://th.bing.com/th/id/OIP.kCeAp8d3jsaZmu9nk0SowwAAAA?rs=1&pid=ImgDetMain" alt="Cơm tấm">
+          <span>Broken rice</span>
+        </div>
+        <div class="featured-item">
+          <img src="https://toigingiuvedep.vn/wp-content/uploads/2021/06/hinh-anh-tra-sua-tran-chau-dep-mat.jpg"
+            alt="Trà sữa">
+          <span>Milk tea</span>
+        </div>
+        <div class="featured-item">
+          <img src="https://th.bing.com/th/id/OIP.4925IGh0pykOKRzrFvTGEwHaHa?rs=1&pid=ImgDetMain" alt="Pizza">
+          <span>Pizza</span>
+        </div>
+      </div>
+    </section>
+    <section class="food-list">
+      <h2>Delicious Food Suggestions</h2>
+      <div class="foods">
+        <div class="food-card">
+          <div class="discount-badge">-10%</div>
+          <img src="https://amthuc10phut.vn/wp-content/uploads/2023/03/1-18.jpg" alt="Lẩu gà tiềm ớt hiểm">
+          <h3>Chicken hotpot with spicy chili</h3>
+          <div class="rating">⭐ 4.8 | 200+ sold</div>
+          <p class="desc">Rich broth, tender chicken, slightly spicy chili flavor.</p>
+          <p class="price">98.000đ <span class="old-price">109.000đ</span></p>
+          <button class="add-cart">Add to cart</button>
+        </div>
+        <div class="food-card">
+          <img src="https://th.bing.com/th/id/OIP.JpNUvgi_UfEXyE2Lb22EbQHaEZ?o=7rm=3&rs=1&pid=ImgDetMain"
+            alt="Gà nướng sốt tiêu đen">
+          <h3>Grilled chicken with black pepper sauce</h3>
+          <div class="rating">⭐ 4.7 | 150+ sold</div>
+          <p class="desc">Whole grilled chicken, aromatic black pepper sauce.</p>
+          <p class="price">141.550đ <span class="old-price">149.000đ</span></p>
+          <button class="add-cart">Add to cart</button>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://product.hstatic.net/200000078599/product/xoai_xay_da_1_3958f75ed3a84aaca444f0a746eb2348_master.jpg"
+            alt="Cam xoài đá xay">
+          <h3>Orange mango smoothie</h3>
+          <div class="rating">⭐ 4.9 | 300+ sold</div>
+          <p class="desc">Pure orange and mango, cool and refreshing.</p>
+          <p class="price">59.000đ</p>
+          <button class="add-cart">Add to cart</button>
+        </div>
+        <div class="food-card">
+          <div class="discount-badge">-5%</div>
+          <img src="https://th.bing.com/th/id/OIP.NXwIm_S2EKJt8ODmJfHASAHaFE?rs=1&pid=ImgDetMain" alt="Gà nướng cơm lam">
+          <h3>Grilled chicken with bamboo rice</h3>
+          <div class="rating">⭐ 4.6 | 120+ sold</div>
+          <p class="desc">Fragrant chicken, delicious sticky rice.</p>
+          <p class="price">39.900đ <span class="old-price">142.000đ</span></p>
+          <button class="add-cart">Add to cart</button>
+        </div>
+        <!-- Món mớii -->
+        <div class="food-card">
+          <div class="discount-badge">-15%</div>
+          <img src="https://th.bing.com/th/id/OIP.78Bd3g4uzrWD6hZlhnzgKAHaE8?rs=1&pid=ImgDetMain" alt="Phở bò tái">
+          <h3>Rare beef pho</h3>
+          <div class="rating">⭐ 4.9 | 500+ sold</div>
+          <p class="desc">Sweet and fragrant broth, tender beef, delicious chewy rice noodles.</p>
+          <p class="price">45.000đ <span class="old-price">53.000đ</span></p>
+          <button class="add-cart">Add to cart</button>
+          <span class="new-badge">New</span>
+        </div>
+        <div class="food-card">
+          <img src="https://sunhouse.com.vn/pic/news/images/image-20211229181528-1.jpeg" alt="Bún chả Hà Nội">
+          <h3>Hanoi vermicelli with grilled pork</h3>
+          <div class="rating">⭐ 4.8 | 320+ sold</div>
+          <p class="desc">Fragrant grilled meat, rich fish sauce.</p>
+          <p class="price">38.000đ</p>
+          <button class="add-cart">Add to cart</button>
+          <span class="new-badge">New</span>
+        </div>
+        <div class="food-card">
+          <img src="https://th.bing.com/th/id/R.7e8e9da817ebfbc40f1a9682e9b435b4?rik=IH1ktQeiGPm5Tw&pid=ImgRaw&r=0"
+            alt="Bánh cuốn nóng">
+          <h3>Hot rice rolls</h3>
+          <div class="rating">⭐ 4.7 | 210+ sold</div>
+          <p class="desc">Soft rice rolls, fragrant meat filling, served with sausage.</p>
+          <p class="price">32.000đ</p>
+          <button class="add-cart">Add to cart</button>
+          <span class="new-badge">New</span>
+        </div>
+        <div class="food-card">
+          <img src="https://i.ytimg.com/vi/Y1x0bTb2HU4/maxresdefault.jpg" alt="Chè khúc bạch">
+          <h3>White jelly tea</h3>
+          <div class="rating">⭐ 4.8 | 180+ sold</div>
+          <p class="desc">Fatty and fragrant white jelly, cool fresh fruit.</p>
+          <p class="price">29.000đ</p>
+          <button class="add-cart">Add to cart</button>
+          <span class="new-badge">New</span>
+        </div>
+        <div class="food-card">
+          <img src="https://th.bing.com/th/id/OIP.fdIFVwfcgFVyIvnrbZ_dWgHaFL?rs=1&pid=ImgDetMain" alt="Bún bò Huế">
+          <h3>Hue beef noodle soup</h3>
+          <div class="rating">⭐ 4.9 | 400+ sold</div>
+          <p class="desc">Rich broth, tender beef, chewy noodles, authentic Hue flavor.</p>
+          <p class="price">55.000đ</p>
+          <button class="add-cart">Add to cart</button>
+          <span class="new-badge">New</span>
+        </div>
+        <div class="food-card">
+          <img src="https://th.bing.com/th/id/OIP.AUbmvdDU0u1g4ZnOaTy41QHaHa?rs=1&pid=ImgDetMain" alt="Gỏi cuốn tôm thịt">
+          <h3>Shrimp and pork spring rolls</h3>
+          <div class="rating">⭐ 4.8 | 250+ sold</div>
+          <p class="desc">Fresh shrimp and meat rolls, dipped in special fish sauce.</p>
+          <p class="price">32.000đ</p>
+          <button class="add-cart">Add to cart</button>
+          <span class="new-badge">New</span>
+        </div>
+        <div class="food-card">
+          <img src="https://th.bing.com/th/id/OIP.GvK0JpP-2ApxX6UxKZGgiAHaEL?rs=1&pid=ImgDetMain" alt="Bánh xèo miền Tây">
+          <h3>Western pancakes</h3>
+          <div class="rating">⭐ 4.7 | 180+ sold</div>
+          <p class="desc">Crispy pancakes, shrimp and meat filling, served with fresh vegetables.</p>
+          <p class="price">45.000đ</p>
+          <button class="add-cart">Add to cart</button>
+          <span class="new-badge">New</span>
+        </div>
+        <div class="food-card">
+          <img src="https://th.bing.com/th/id/OIP.yyPpJ-oJBUsoOFAuRpDOEwHaET?rs=1&pid=ImgDetMain" alt="Chè thái sầu riêng">
+          <h3>Thai durian tea</h3>
+          <div class="rating">⭐ 4.8 | 220+ sold</div>
+          <p class="desc">Delicious Thai tea, rich durian, diverse toppings.</p>
+          <p class="price">35.000đ</p>
+          <button class="add-cart">Add to cart</button>
+          <span class="new-badge">New</span>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <h2>Why choose FoodShop Delivery?</h2>
+      <ul>
+        <li>Super fast delivery in 30 minutes</li>
+        <li>Diverse dishes, reputable restaurants</li>
+        <li>Many attractive offers every day</li>
+        <li>Safe and secure payment</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-main">
+      <div class="footer-cols">
+        <!-- Cột 1: Logo & slogan -->
+        <div class="footer-col footer-col-brand">
+          <img src="logo-grabfood2.svg" alt="FoodX Delivery" class="footer-logo">
+          <div class="footer-slogan">Deliver delicious food to your door, fast and reputable!</div>
+          <div class="footer-apps">
+            <a href="#" target="_blank" aria-label="App Store">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="App Store"
+                class="app-icon">
+            </a>
+            <a href="#" target="_blank" aria-label="Google Play">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Google Play" class="app-icon">
+            </a>
+          </div>
+        </div>
+        <!-- Cột 2: Liên kết -->
+        <div class="footer-col">
+          <h4>About <span class="brand-green">FoodX</span></h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <!-- Cột 3: Kết nối -->
+        <div class="footer-col">
+          <h4>Connect with us</h4>
+          <div class="footer-socials">
+            <a href="https://facebook.com/" target="_blank" title="Facebook" aria-label="Facebook">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"
+                class="footer-icon">
+            </a>
+            <a href="https://zalo.me/" target="_blank" title="Zalo" aria-label="Zalo">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/zalo.svg" alt="Zalo"
+                class="footer-icon">
+            </a>
+          </div>
+          <div class="footer-hotline">
+            <span>Hotline:</span> <a href="tel:0123456789">0878 922005</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 FoodShop Delivery. Inspired by Group3Food</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
